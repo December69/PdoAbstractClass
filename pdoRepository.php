@@ -4,10 +4,10 @@ Classe de gestion de base de notre base de donées
 */
 
 abstract class pdoRepository{
-    const USERNAME="id8787072_mike";
-    const PASSWORD="MikeMike";
+    const USERNAME="Identifiant";
+    const PASSWORD="MotDePasse";
     const HOST="localhost";
-    const DB="id8787072_formulakids";
+    const DB="NomDataBase";
 
     private function getConnection(){
         $username = self::USERNAME;
